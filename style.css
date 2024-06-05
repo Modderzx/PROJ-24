@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+}
+
+/* style do título elemento h1*/
+h1 {
+	margin: 0;
+}
+
+/* Esse é o style do cabeçalho */
+header {
+	background-color: #9613e2;
+	display: flex;
+	justify-content: space-between; /*Só funciona com display flex */
+	padding: 10px;
+}
+
+#box-categorias button {
+	background-color: #13c3e2;
+}
+
+#box-ordenar button {
+	background-color: #090670;
+}
+
+#box-categorias button,
+#box-ordenar button {
+	border: 0;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+#GALERIA-IMAGENS{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#GALERIA-IMAGENS{
+	max-width: 100%;
+}
